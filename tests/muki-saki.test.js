@@ -28,7 +28,7 @@ describe('★事務所の 入口の 向き先★', () => {
 
   it('★① 形が 壊れていない（JSON として 読める）★', () => {
     expect(Array.isArray(d.rewrites), '★rewrites が ありません★').toBe(true);
-    expect(d.rewrites.length, '★rewrites が 減っています★').toBeGreaterThanOrEqual(21);
+    expect(d.rewrites.length, '★rewrites が 減っています★').toBeGreaterThanOrEqual(23);
   });
 
   it('★★② 行き先が 全部 本番のメーター★★', () => {
